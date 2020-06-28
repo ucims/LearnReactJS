@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz 2</title>
+    <style>
+        .form-cuti {
+            align-items: center;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="root"></div>
+        <script type="text/babel">
+            ReactDOM.render(
+            <div>
+                <form>
+                    <table class="form-cuti">
+                        <tr>
+                            <th>Nama</th>
+                            <td><input type="text" name="nama" /></td>
+                        </tr>
+                        <tr>
+                            <th>Jabatan</th>
+                            <td><input type="text" name="jabatan" /></td>
+                        </tr> 
+                        <tr>
+                            <th>Jumlah Cuti</th>
+                            <td><input type="number" name="cuti" /></td>
+                        </tr>
+                        <tr>
+                            <th>Tanggal Mulai</th>
+                            <td><input type="date" name="awal_cuti" /></td>
+                        </tr>
+                        <tr>
+                            <th>Tanggal Selesai</th>
+                            <td><input type="date" name="akhir_cuti" /></td>
+                        </tr>  
+                        <tr>
+                            <td colspan="2"><button type="submit">Submit</button></td>
+                        </tr>   
+                    </table>
+                </form>    
+            </div>,
+            document.getElementById('root')
+            );
+        </script>
+    
+    
+    <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/babel-standalone/6.24.0/babel.js"></script>
+</body>
+</html>
