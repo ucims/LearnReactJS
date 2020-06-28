@@ -1,0 +1,1 @@
+confirm('Apakah anda ingin memelihara kucing?');
